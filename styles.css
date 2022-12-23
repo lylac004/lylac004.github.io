@@ -1,0 +1,63 @@
+html {
+    font-family: 'Chivo Mono';
+    font-size: 2.5vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+header a {
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+header button {
+    aspect-ratio: 1/1;
+    margin-inline: 5%;
+    border-radius: 25%;
+    background-color: transparent;
+}
+
+header button:hover {
+    background-color: rgb(255, 220, 226);
+    border-color: rgb(214, 182, 187);
+    color: rgb(94, 94, 94);
+}
+
+
+.poem {
+    margin-inline: 10vw;
+    width: 80vw;
+    text-align: center;
+}
+
+.poem-title h2::before {
+    display: inline;
+    content: "_ ~ *";
+}
+
+.poem-title h2::after {
+    display: inline;
+    content: "* ~ _";
+}
+
+main {
+    margin-block: 10vw;
+}
+
+
+@media screen and (min-width: 800px){
+    html{
+
+        font-size:  15px;
+    }
+    
+}
